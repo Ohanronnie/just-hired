@@ -31,6 +31,13 @@ export const sideBarContent: ISideBarContent[] = [
         ],
       },
       {
+        title: "Export Candidate",
+        titleIcon: menuIcons.companyBlock,
+        subMenu: [{
+          text: "Export Candidate", link: "/recruit/export-candidate"
+        }]
+      },
+      {
         title: "Job Location",
         titleIcon: menuIcons.jobBag,
         subMenu: [
