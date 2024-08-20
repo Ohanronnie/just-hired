@@ -5,7 +5,7 @@ import SelectField from "@/components/global/SelectField";
 import { Button } from "@/components/ui/button";
 import { ChevronDown, Filter } from "lucide-react";
 
-import { SelectHTMLAttributes, useState } from "react";
+import { useState } from "react";
 interface IOptions {
   label: string;
   value: string;
